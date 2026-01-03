@@ -1,4 +1,4 @@
-document.getElementById("im").innerHTML = "Nikodemus Stanley";
+document.getElementById("im").innerHTML = "Nikodemus Kohar";
 changeText();
 
 function sleep(ms) {
