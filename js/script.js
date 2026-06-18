@@ -1,4 +1,4 @@
-document.getElementById("im").innerHTML = "Nikodemus Stanley";
+document.getElementById("im").innerHTML = "Nikodemus Kohar";
 changeText();
 
 function sleep(ms) {
@@ -12,17 +12,17 @@ async function changeText() {
         
 
         setTimeout(() => {
-            document.getElementById("im").innerHTML = "Computer Science Student";
+            document.getElementById("im").innerHTML = "Software Engineer";
             document.getElementById("hello").innerHTML = "Hello I'm a";
-            console.log("Computer Science Student");
+            // console.log("Computer Science Student");
         }
             , 1500);
         await sleep(1500);
 
         setTimeout(() => {
             document.getElementById("hello").innerHTML = "Hello I'm";
-            document.getElementById("im").innerHTML = "Nikodemus Stanley";
-            console.log("Nikodemus Stanley");
+            document.getElementById("im").innerHTML = "Nikodemus Kohar";
+            // console.log("Nikodemus Stanley");
         }
             , 3000);
         await sleep(1500);
